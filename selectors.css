@@ -1,0 +1,51 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+.disabled {
+    color: grey;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent div:first-child {
+    color: red;
+}
+
+.parent div:nth-child(3) {
+    color: blue;
+}
+
+.parent h4:nth-child(2) {
+    background-color: red;
+}
+
+.parent h4:nth-child(4) {
+    background-color: blue;
+}
+
+/* This tag is not right */
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input[type="text"] {
+    padding: 25px;
+}
+
+input[type="tel"] {
+    padding: 25px;
+}
+
